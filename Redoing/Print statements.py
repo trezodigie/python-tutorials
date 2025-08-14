@@ -1,5 +1,0 @@
-two_digits_number = input("Write your answer? ")
-# print(type(two_digits_number))
-first_digit = int(two_digits_number[0])
-second_digit = int(two_digits_number[1])
-print(first_digit + second_digit)

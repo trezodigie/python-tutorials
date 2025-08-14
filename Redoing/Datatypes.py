@@ -1,6 +1,0 @@
-# number = len(input("What is your name?\n"))
-# print("Your name has " + number + " " + "characters.")
-# a = float(123)
-# print(type(a))
-two_digit_number = input(39)
-print(type(two_digit_number))
