@@ -27,7 +27,7 @@ while others == "yes":
   others = input("Are there any other bidders? Type 'yes' or 'no'.").lower()
   if others == "no":
     break
-  
+
 highest_bid = 0
 highest_bidder = ""
 

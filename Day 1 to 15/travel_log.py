@@ -1,7 +1,7 @@
 country = input("Type a country name. ").lower()# Add country name
 visits = int(input("How many times have you visited? ")) # Number of visits
-list_of_cities = eval(input("How many cities in the country have you visited? Separate them with a comma please. ")) # create list from formatted string
-
+list_of_cities = (input("How many cities in the country have you visited? Separate them with a comma please. ")) # create list from formatted string
+eval(list_of_cities)
 travel_log = [
   {
     "country": "France",
@@ -14,7 +14,6 @@ travel_log = [
     "cities": ["Berlin", "Hamburg", "Stuttgart"]
   },
 ]
-# Do NOT change the code above 👆
 
 # TODO: Write the function that will allow new countries
 # to be added to the travel_log. 
